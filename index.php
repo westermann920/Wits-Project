@@ -36,7 +36,8 @@ else if (isset($_GET["user"]) && $_GET["user"] == "benjamin"){
     } else{
       echo "Login to post blog content" . "<br>";
       echo "<form action='login-session.php' method='GET'>";
-      echo "  <input type='text' placeholder='user name' name='user'>";
+      echo "  <input type='text' placeholder='username' name='user'>";
+      echo "  <input type='text' placeholder='password' name='password'>";
       echo "  <input type='submit' value='Log in'>";
       echo "</form>";
       echo "hint: the username is benjamin";
